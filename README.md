@@ -1,0 +1,1 @@
+Hello there! This is the start of my long and arduous journey through TheOdinProject's course. I am curretnyl attempt to recreate the Google HomePage with an index.HTML file! Hopefully, I don't become discouraged and actually finish this project. To whomever is reading this, please dn't be too critical of my first html project! 
