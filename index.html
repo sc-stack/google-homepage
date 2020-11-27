@@ -1,10 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
     <style>
+        body{
+            background-color: white;
+        }
         #logo{
            position: fixed;
-            bottom: 400px;
+           bottom: 400px;
+           right: 475px;
+        }
+        #searchbox{
+            position: fixed;
+            bottom: 350px;
+            right: 400px;
+            }       
+        #Lucky{
+            position: fixed;
+            bottom: 300px;
             right: 500px;
+        } 
+        #searchbutton{
+            position:fixed;
+            bottom:300px;
+            right:700px;
         }
     </style>
 <head>
@@ -14,6 +32,11 @@
 </head>
 <body>
   <div id = "logo"> <img src= "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt = "Google"></div>
-   <form action = "google.com"><input type = "text"></form>
+   <form action = "#"> 
+       <input type = "text" id = "searchbox" size = 60>
+       <br>
+        <button type = "submit" size = 20 id = "searchbutton">Google Search</button>
+        <button type = "submit" size = 20 id = "Lucky">I'm Feeling Lucky</button>
+    </form>
 </body>
 </html>
