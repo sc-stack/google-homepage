@@ -7,7 +7,7 @@
         #logo{
            position: fixed;
            bottom: 400px;
-           right: 475px;
+           right: 500px;
         }
         #searchbox{
             position: fixed;
@@ -24,11 +24,42 @@
             bottom:300px;
             right:700px;
         }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            width: 100%;
+        }
+        li{
+            float: left;
+        }
+        
+       li a {
+            display: block;
+            padding: 8px;
+            background-color:white;
+        }
+        li img{
+            width: 7%;
+            height: auto;
+        }
+
     </style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google HomePage Project</title>
+    <nav> 
+        <ul id = "list">
+            <li><a href = "#">About </a></li>
+            <li><a href = "#">Store </a></li>
+            <li style = "float:right"><a href = "#"><img src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAABlBMVEX///8AAABVwtN+AAABDUlEQVR4nO3YsQ3AMAwEMWf/pTNDYBWngD+AwGt1jpmZmf1yz4elbyQQQmoIITWEkBpCSA0hpIYQUkMIqSGE1BBCagghNYSQGkJIDSGkhhBSQwipIYTUEEJqCCE1hJAaQkgNIaSGGLphZmZmZmZmZma2bpXn2vWNBEJIDSGkhhBSQwipIYTUEEJqCCE1hJAaQkgNIaSGEFJDCKkhhNQQQmoIITWEkBpCSA0hpIYQUkMIqSGE1BBDN8zMzMzMzMzMzNat8ly7vpFACKkhhNQQQmoIITWEkBpCSA0hpIYQUkMIqSGE1BBCagghNYSQGkJIDSGkhhBSQwipIYTUEEJqCCE1hJAaYuiGmZmZ7d4LzndEEQ8WvBAAAAAASUVORK5CYII=" alt = "grid"></a></li>
+            <li style = "float:right" ><a href = "#">Images </a></li>
+            <li style = "float:right"><a href = "#">Gmail </a></li>
+
+        </ul>
+    </nav>
 </head>
 <body>
   <div id = "logo"> <img src= "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt = "Google"></div>
