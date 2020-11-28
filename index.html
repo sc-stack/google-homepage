@@ -29,7 +29,6 @@
             margin: 0;
             padding: 0;
             overflow: hidden;
-            width: 100%;
         }
         li{
             float: left;
@@ -44,17 +43,26 @@
             width: 7%;
             height: auto;
         }
-
+        footer {
+	    position: fixed;
+	    width: 100%;
+	    left: 0;
+	    bottom: 0;
+	    color: white;
+	    text-align: center;
+        margin: 7px;
+        }
     </style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google HomePage Project</title>
-    <nav> 
+    <nav style = "width:100%"> 
         <ul id = "list">
             <li><a href = "#">About </a></li>
             <li><a href = "#">Store </a></li>
-            <li style = "float:right"><a href = "#"><img src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAABlBMVEX///8AAABVwtN+AAABDUlEQVR4nO3YsQ3AMAwEMWf/pTNDYBWngD+AwGt1jpmZmf1yz4elbyQQQmoIITWEkBpCSA0hpIYQUkMIqSGE1BBCagghNYSQGkJIDSGkhhBSQwipIYTUEEJqCCE1hJAaQkgNIaSGGLphZmZmZmZmZma2bpXn2vWNBEJIDSGkhhBSQwipIYTUEEJqCCE1hJAaQkgNIaSGEFJDCKkhhNQQQmoIITWEkBpCSA0hpIYQUkMIqSGE1BBDN8zMzMzMzMzMzNat8ly7vpFACKkhhNQQQmoIITWEkBpCSA0hpIYQUkMIqSGE1BBCagghNYSQGkJIDSGkhhBSQwipIYTUEEJqCCE1hJAaYuiGmZmZ7d4LzndEEQ8WvBAAAAAASUVORK5CYII=" alt = "grid"></a></li>
+           <!-- <li style = "float:right"><a href = "#"><img src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAABlBMVEX///8AAABVwtN+AAABDUlEQVR4nO3YsQ3AMAwEMWf/pTNDYBWngD+AwGt1jpmZmf1yz4elbyQQQmoIITWEkBpCSA0hpIYQUkMIqSGE1BBCagghNYSQGkJIDSGkhhBSQwipIYTUEEJqCCE1hJAaQkgNIaSGGLphZmZmZmZmZma2bpXn2vWNBEJIDSGkhhBSQwipIYTUEEJqCCE1hJAaQkgNIaSGEFJDCKkhhNQQQmoIITWEkBpCSA0hpIYQUkMIqSGE1BBDN8zMzMzMzMzMzNat8ly7vpFACKkhhNQQQmoIITWEkBpCSA0hpIYQUkMIqSGE1BBCagghNYSQGkJIDSGkhhBSQwipIYTUEEJqCCE1hJAaYuiGmZmZ7d4LzndEEQ8WvBAAAAAASUVORK5CYII=" alt = "grid"></a></li>
+           -->
             <li style = "float:right" ><a href = "#">Images </a></li>
             <li style = "float:right"><a href = "#">Gmail </a></li>
 
@@ -69,5 +77,15 @@
         <button type = "submit" size = 20 id = "searchbutton">Google Search</button>
         <button type = "submit" size = 20 id = "Lucky">I'm Feeling Lucky</button>
     </form>
+    <footer>
+        <ul>
+            <li><a href = "#">Advertising</a></li>
+            <li><a href = "#">Business</a></li>
+            <li><a href = "#">How Search Works</a></li>
+            <li style = "float:right"><a href = "#">Privacy</a></li>
+            <li style = "float:right"><a href = "#">Terms</a></li>
+            <li style = "float:right"><a href = "#">Settings</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
