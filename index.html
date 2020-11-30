@@ -9,32 +9,46 @@
            bottom: 400px;
            right: 500px;
         }
+        #signin{
+            background-color: blue;
+            color: white;
+            font-family: "Arial Black", Gadget, sans-serif;
+            border: 1px solid white;
+            padding: 2px;
+
+        }
         #searchbox{
             position: fixed;
             bottom: 350px;
             right: 370px;
             border-radius: 25px;
-            border: 1px solid gray;
             padding: 10px;
+            border: 1px groove white;
             width: 500px;
-            }       
+            }     
         #Lucky{
             position: fixed;
-            bottom: 300px;
+            bottom: 290px;
             right: 500px;
+            padding: 9px;
+            border: 1px solid white;
         } 
         #searchbutton{
             position:fixed;
-            bottom:300px;
+            bottom:290px;
             right:700px;
+            border: 1px solid white;
+            padding: 9px;
         }
         ul{
             list-style-type: none;
             margin: 0;
             padding: 0;
             overflow: hidden;
+            text-decoration: none;
         }
         li{
+            padding : 5px;
             float: left;
             font-size: .75em;
         }
@@ -44,18 +58,15 @@
             padding: 8px;
             background-color:white;
         }
-        li img{
-            width: 7%;
-            height: auto;
-        }
         footer {
-	    position: fixed;
-	    width: 100%;
-	    left: 0;
-	    bottom: 0;
-	    color: white;
-	    text-align: center;
-        margin: 7px;
+	         position: fixed;
+	         width:98%;
+	         left: 0;
+	         bottom: 0;
+	        color: white;
+	        text-align: center;
+             margin: 7px;
+             text-decoration: none;
         }
     </style>
 <head>
@@ -66,8 +77,8 @@
         <ul id = "list">
             <li><a href = "#">About </a></li>
             <li><a href = "#">Store </a></li>
-           <!-- <li style = "float:right"><a href = "#"><img src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAABlBMVEX///8AAABVwtN+AAABDUlEQVR4nO3YsQ3AMAwEMWf/pTNDYBWngD+AwGt1jpmZmf1yz4elbyQQQmoIITWEkBpCSA0hpIYQUkMIqSGE1BBCagghNYSQGkJIDSGkhhBSQwipIYTUEEJqCCE1hJAaQkgNIaSGGLphZmZmZmZmZma2bpXn2vWNBEJIDSGkhhBSQwipIYTUEEJqCCE1hJAaQkgNIaSGEFJDCKkhhNQQQmoIITWEkBpCSA0hpIYQUkMIqSGE1BBDN8zMzMzMzMzMzNat8ly7vpFACKkhhNQQQmoIITWEkBpCSA0hpIYQUkMIqSGE1BBCagghNYSQGkJIDSGkhhBSQwipIYTUEEJqCCE1hJAaYuiGmZmZ7d4LzndEEQ8WvBAAAAAASUVORK5CYII=" alt = "grid"></a></li>
-           -->
+            <li style = "float:right"><a href = "#"><button type = "submit" size = 15 id = "signin">Sign In</button></a></li>
+            <li style = "float:right"><a href = "#"><img src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAABlBMVEX///8AAABVwtN+AAABDUlEQVR4nO3YsQ3AMAwEMWf/pTNDYBWngD+AwGt1jpmZmf1yz4elbyQQQmoIITWEkBpCSA0hpIYQUkMIqSGE1BBCagghNYSQGkJIDSGkhhBSQwipIYTUEEJqCCE1hJAaQkgNIaSGGLphZmZmZmZmZma2bpXn2vWNBEJIDSGkhhBSQwipIYTUEEJqCCE1hJAaQkgNIaSGEFJDCKkhhNQQQmoIITWEkBpCSA0hpIYQUkMIqSGE1BBDN8zMzMzMzMzMzNat8ly7vpFACKkhhNQQQmoIITWEkBpCSA0hpIYQUkMIqSGE1BBCagghNYSQGkJIDSGkhhBSQwipIYTUEEJqCCE1hJAaYuiGmZmZ7d4LzndEEQ8WvBAAAAAASUVORK5CYII=" alt = "grid" width = 20 height = 20></a></li>
             <li style = "float:right" ><a href = "#">Images </a></li>
             <li style = "float:right"><a href = "#">Gmail </a></li>
 
@@ -82,7 +93,9 @@
         <button type = "submit" size = 20 id = "searchbutton">Google Search</button>
         <button type = "submit" size = 20 id = "Lucky">I'm Feeling Lucky</button>
     </form>
-    <footer>
+    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8hgsQBZbXqe_9XrPGakt1eqlgJIGP2BuumA&usqp=CAU" alt = search style = "width: 12px; position:fixed; right: 865px; top :285px">
+    <img src = https://upload.wikimedia.org/wikipedia/commons/2/22/Google_microphone_logo.png alt = "mic" style = "width: 12px ;position:fixed; right: 390px; bottom: 360px">
+    <footer style ="border: 1px solid white">
         <ul>
             <li><a href = "#">Advertising</a></li>
             <li><a href = "#">Business</a></li>
